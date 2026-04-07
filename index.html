@@ -170,6 +170,35 @@ body{padding-left:max(1.5rem, env(safe-area-inset-left));padding-right:max(1.5re
 @media (max-height:500px) and (orientation:landscape){body{padding:1rem 2rem}.header{margin-bottom:1.5rem}h1{font-size:42px}.header-ornament{margin-bottom:.25rem}.tagline{margin-top:.5rem}.card{padding:1.5rem}.table-display .tnum{font-size:56px}.table-display{padding:1rem 2.5rem}}
 @media (hover:none){.tcard:hover{transform:none}.suggestion:hover{background:transparent}.suggestion.highlighted{background:rgba(220,192,178,.17)}.tab:active{opacity:.75;transition:opacity .1s}.suggestion:active{background:rgba(220,192,178,.22)}.tcard:active{transform:scale(.985);transition:transform .1s}.mate:active{opacity:.75}}
 @media (prefers-reduced-motion:reduce){.page{animation:none}*{transition-duration:.01ms !important}}
+	@media (max-width: 600px){
+  .page{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  h1{
+    font-size: 42px !important;
+    line-height: 1.1 !important;
+  }
+
+  .card{
+    padding: 1.5rem !important;
+  }
+
+  .tabs{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .tab{
+    font-size: 10px !important;
+    padding: 10px 12px !important;
+  }
+
+  .search-wrap input[type=text]{
+    font-size: 16px !important;
+  }
+}
 </style>
 </head>
 <body>
